@@ -7,6 +7,8 @@ Some of the scripts remove apps from all profiles in a currently running system.
 
 One of the scripts will remove the apps from a mounted ISO file to prevent their installation from the start.
 
+Another script will shutdown certain Windows 10 services that I find to be either useless, not necessary for my workflow, or to possibly be privacy issues.
+
 
 
 ## To Do
