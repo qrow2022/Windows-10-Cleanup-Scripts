@@ -3,11 +3,13 @@
 This repo contains several scripts that can be used to remove the inbox default Windows 10 junk *\*Cough Features Cough*\* Universal apps.
 
 
-Some of the scripts remove apps from all profiles in a currently running system.
+Holographic-reg-edit.ps1 will change the registry for the system, allowing the hidden holographic app to become visible and then removable. The holographic app is hidden on systems that do not have the necessary specs for the holographic system to run, such as a dedicated graphics card.
 
-One of the scripts will remove the apps from a mounted ISO file to prevent their installation from the start.
+Remove-built-in-windows10-apps.ps1 will remove apps from all profiles in a currently running system.
 
-Another script will shutdown certain Windows 10 services that I find to be either useless, not necessary for my workflow, or to possibly be privacy issues.
+Remove-built-in-win10-ISO-apps.ps1 will remove the apps from a mounted ISO file to prevent their installation from the start.
+
+Win10-disable-services.ps1 will shutdown certain Windows 10 services that I find to be either useless, not necessary for my workflow, or to possibly be privacy issues.
 
 
 
